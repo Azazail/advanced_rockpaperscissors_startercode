@@ -1,1 +1,16 @@
+.game {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
 
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align:center;
+}
+#input {
+    margin-left:43%;
+    margin-bottom: 60%;
+}
