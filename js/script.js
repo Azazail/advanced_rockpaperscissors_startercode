@@ -42,10 +42,17 @@ console.log(me,opponent)
 var computerChoice = function() {
         var random = Math.random();
         if (random < 0.333) {
+        $("#Com").attr("src","images/COMROCK.gif");
 	      return  'rock';
+	      
+
         } else if(random < 0.67777) {
+                 $("#Com").attr("src","images/COMPAPER.png");
 	      return 'paper';
+	     
         } else {
+                 $("#Com").attr("src","images/COMSCISSORS.png");
 	      return 'scissors';
+	     
         } 
 };
